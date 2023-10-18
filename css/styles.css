@@ -67,12 +67,12 @@
 .link__btn {
   display: block;
 
-  width: 18em;
+  width: 20em;
   padding: 25px;
 
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.4rem;
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
