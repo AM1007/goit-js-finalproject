@@ -10,8 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
-  background: linear-gradient(to top, #493cbb, #4ffdb7);
-  animation: gradient 10s ease infinite;
+  background: linear-gradient(to top, #493cbb 60%, #68ecf3);
   background-size: 10% 400%;
 }
 
@@ -28,16 +27,4 @@ button {
 li {
   list-style: none;
   display: block;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
