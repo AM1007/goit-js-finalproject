@@ -3,7 +3,9 @@
 ### Task 1. Image gallery
 
 Create a gallery with the ability to click on its elements and view a full-sized image in a modal window.
-[Check out the gallery's demo video in action](https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-8671-fc841963d961.mp4).
+Check out the gallery's demo video in action.
+
+https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-8671-fc841963d961.mp4
 
 Execute this task in files `01-gallery.html` and `01-gallery.js.` Break it down into several subtasks:
 
