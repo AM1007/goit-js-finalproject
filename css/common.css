@@ -9,10 +9,10 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
   line-height: 1.5;
-  background-color: gray;
+  background: linear-gradient(to top, #493cbb, #4ffdb7);
+  animation: gradient 10s ease infinite;
+  background-size: 10% 400%;
 }
 
 input {
@@ -28,4 +28,16 @@ button {
 li {
   list-style: none;
   display: block;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
