@@ -47,15 +47,16 @@
 /* Button styles */
 
 .list {
-  margin-top: 60vh;
-  margin-bottom: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 10%;
+
+  margin-top: 60vh;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .list__item {
@@ -64,19 +65,23 @@
 }
 
 .link__btn {
+  display: block;
+
+  width: 18em;
+  padding: 25px;
+
   font-family: Poppins;
   font-weight: 700;
   font-size: 2rem;
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
+
   color: white;
-  display: block;
   outline: none;
   border-radius: 10px;
   border: 6px solid rgba(255, 255, 255, 0.8);
-  padding: 25px;
-  width: 18em;
+
   transition: 1s;
 }
 
