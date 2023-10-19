@@ -64,3 +64,5 @@ Execute this task in files `02-lightbox.html` and `02-lightbox.js.` Break it dow
 2. Connect the library's styles and script using the CDN service from cdnjs. You need to add links to two files: `simple-lightbox.min.js` and `simple-lightbox.min.css`.
 3. Initialize the library after creating and adding gallery elements to the `ul.gallery`. To do this, please refer to the [SimpleLightbox](https://simplelightbox.com/) documentation, especially the 'Usage' and 'Markup' sections.
 4. Take a look at the 'Options' section in the documentation and add captions to the images based on the alt attribute. Let the caption appear at the bottom and delay its display by 250 milliseconds after opening the image.
+
+---

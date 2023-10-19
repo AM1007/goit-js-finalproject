@@ -35,18 +35,24 @@ function handleClickOnImage(evt) {
     return;
   }
   const instance = basicLightbox.create(
-    `<img src="${target.dataset.source}", width="800" height="600">`
+    `<img src="${target.dataset.source}", width="800" height="600">`,
+    {
+      onShow: () => {
+        window.addEventListener("keydown", onEscape);
+      },
+      onClose: () => {
+        window.removeEventListener("keydown", onEscape);
+      },
+    }
   );
   instance.show();
 
   // Закриття модального вікна по натиску на Escape
 
-  window.addEventListener("keydown", onEscape);
   function onEscape(evt) {
     const ESC_KEY_CODE = "Escape";
     if (evt.code === ESC_KEY_CODE) {
       instance.close();
-      window.removeEventListener("keydown", onEscape);
     }
   }
 }
